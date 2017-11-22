@@ -1,0 +1,11 @@
+[Unit]
+Description=Image converter daemon
+
+[Service]
+ExecStart=/usr/bin/image_converter
+Environment=LISTEN_ADDR=:8080
+Restart=always
+Type=simple
+
+[Install]
+WantedBy=multi-user.target

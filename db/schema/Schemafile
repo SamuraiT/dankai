@@ -1,0 +1,7 @@
+require 'users.schema'
+require 'followings.schema'
+require 'posts.schema'
+require 'images.schema'
+require 'comments.schema'
+require 'likes.schema'
+require 'icons.schema'
